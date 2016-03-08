@@ -1,0 +1,89 @@
+p cnf 9 38
+c ¬RS ∨ ¬GS
+-1 -2 0
+c GS ∨ RS
+2 1 0
+c ¬RM ∨ ¬GM
+-3 -4 0
+c GM ∨ RM
+4 3 0
+c ¬RE ∨ ¬GE
+-5 -6 0
+c GE ∨ RE
+6 5 0
+c RS ∨ GS ∨ GS
+1 2 2 0
+c RS ∨ GS ∨ GM
+1 2 4 0
+c RS ∨ GS ∨ RE
+1 2 5 0
+c RS ∨ RM ∨ RM
+1 3 3 0
+c RS ∨ RM ∨ GM
+1 3 4 0
+c RS ∨ RM ∨ RE
+1 3 5 0
+c GE ∨ GE ∨ RM
+6 6 3 0
+c GE ∨ GE ∨ GM
+6 6 4 0
+c GE ∨ GE ∨ RE
+6 6 5 0
+c GM ∨ GS ∨ GS
+4 2 2 0
+c GM ∨ GS ∨ GM
+4 2 4 0
+c GM ∨ GS ∨ RE
+4 2 5 0
+c GM ∨ RM ∨ RM
+4 3 3 0
+c GM ∨ RM ∨ GM
+4 3 4 0
+c GM ∨ RM ∨ RE
+4 3 5 0
+c GM ∨ GE ∨ RM
+4 6 3 0
+c GM ∨ GE ∨ GM
+4 6 4 0
+c GM ∨ GE ∨ RE
+4 6 5 0
+c GE ∨ GS ∨ GS
+6 2 2 0
+c GE ∨ GS ∨ GM
+6 2 4 0
+c GE ∨ GS ∨ RE
+6 2 5 0
+c GE ∨ RM ∨ RM
+6 3 3 0
+c GE ∨ RM ∨ GM
+6 3 4 0
+c GE ∨ RM ∨ RE
+6 3 5 0
+c GE ∨ GE ∨ RM
+6 6 3 0
+c GE ∨ GE ∨ GM
+6 6 4 0
+c GE ∨ GE ∨ RE
+6 6 5 0
+c ¬RS ∨ SS
+-1 7 0
+c ¬RM ∨ SM
+-3 8 0
+c ¬RE ∨ SE
+-5 9 0
+c ¬GM ∨ RS
+-4 1 0
+c ¬RS ∨ GM-1 4 0
+9 0
+5 0
+
+c Variables
+c     1 RS
+c     2 GS
+c     3 RM
+c     4 GM
+c     5 RE
+c     6 GE
+c     7 SS
+c     8 SM
+c     9 SE
